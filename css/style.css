@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: .5s ease-in-out;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: #f7f7f7;	
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar, .container{
+	padding: 0 15px;
+}
+
+.parallax{
+	display: block;
+	background-image: url("../img/parallax.jpg");	
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.parallax-inner{
+	display: block;
+	background-image: url("../img/1.jpg");	
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 100;
+	opacity: .5;
+}
+	
+.navbar{
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	background-color: #48f;
+	color: #fff;
+	position: absolute;
+	top: calc(100% - 60px);
+}
+.nav{
+	width: inherit;
+	list-style: none;
+}
+.nav li{
+	display: block;
+	text-align: center;
+}
+.nav a{
+	color: #f1f1f1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	display: block;
+	line-height: 60px;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px solid #444;
+}
+.nav a:hover{
+	background-color: #00f;
+	padding: 0;
+}
+main{
+	min-height: 600px;
+	background-color: #f1f1f1;
+}
+.col{
+	text-align: center;
+}
+.col-main{
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+.col-main:first-of-type{
+ 	margin-top: 224px;
+}
+.col img{
+	width: 100%;
+}
+#social a{
+	display: inline-block;
+ 	width: 42px;
+ 	height: 42px;
+ 	background-color: rgba(255, 255, 255, 0.1);
+	text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #888;
+    outline: none;	
+}
+#social a:hover{
+	background-color: #fff;
+	color: #111;
+}
+footer{
+	overflow: hidden;
+	background-color: #333;
+	color: #888;
+}
+footer .col{
+	padding: 20px;
+}
+footer .copyright{
+	margin-top: 10px;
+}
+@media (min-width: 768px){
+	.navbar, .container{
+		padding: 0;
+	}
+	.nav li{
+		display: inline-block;
+		float: left;
+		width: 25%;
+	}
+	.col-main, .col-main:first-child{
+		margin-top: 20px;
+	}
+	.col{
+	float: left;
+	width: 33.3333333336%;
+	}
+}
+@media (min-width: 992px){
+	body{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.parallax-inner{
+		background-position-y: initial;
+
+	}
+}
