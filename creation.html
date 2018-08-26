@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parallax</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+	<header class="navbar">
+		<button class="nav-btn">
+			<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+		</button>
+		<ul class="nav">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about.html">О музыканте</a></li>
+			<li><a href="#">Творчество</a></li>
+			<li><a href="concerts.html">Концерты</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+	</header>
+	<main class="container">
+		<div class="audiocontainer">
+			<h1>Аудио</h1>
+			<div class="audio">
+				<audio src=""controls id="audioPlayer">
+				  	 Ваш браузер не поддерживает тег audio!
+				</audio>
+			</div>
+			<ul id="playlist">
+				<li class="current-song"><a href="music/1.mp3">Track_1 А.Кайн</a></li>
+				<li><a href="music/2.mp3">Track_2 А.Кайн</a></li>
+				<li><a href="music/3.mp3">Track_3 А.Кайн</a></li>
+				<li><a href="music/4.mp3">Track_4 А.Кайн</a></li>
+				<li><a href="music/5.mp3">Track_5 А.Кайн</a></li>
+				<li><a href="music/6.mp3">Track_6 А.Кайн</a></li>
+				<li><a href="music/7.mp3">Track_7 А.Кайн</a></li>
+				<li><a href="music/8.mp3">Track_8 А.Кайн</a></li>
+				<li><a href="music/9 .mp3">Track_9 А.Кайн</a></li>				
+			</ul>
+		</div>
+			
+		<div class="videocontainer">
+			<h1>Видео</h1>
+			<div class="video">
+				<video src="video/1.mp4" controls></video>
+			</div>
+		</div>
+	</main>
+	
+	<footer class="container">
+		<div class="row">
+			<div class="col copyright">
+				<p>&copy; lubimoff2018</p>
+			</div>
+			<div id="social" class="col">
+				<a href=""><i class="fa fa-vk fa-lg" aria-hidden="true"></i>
+				</a>
+				<a href=""><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="col">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, commodi!</p>
+			</div>
+		</div>		
+	</footer>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/audio.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
