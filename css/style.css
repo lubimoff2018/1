@@ -15,9 +15,9 @@ body{
 	background-color: #f7f7f7;	
 }
 .row::after{
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .navbar, .container{
@@ -82,8 +82,8 @@ body{
 	margin-top: 10px;
 	margin-left: 20px;
 	width: 40px;
-    height: 40px;
-    border: none;
+    	height: 40px;
+    	border: none;
 }
 .nav-btn:hover{
 	background-color: #888;
@@ -131,11 +131,11 @@ main{
  	height: 42px;
  	background-color: rgba(255, 255, 255, 0.1);
 	text-align: center;
-    line-height: 42px;
-    border-radius: 50%;
-    margin-left: 10px;
-    color: #888;
-    outline: none;	
+	line-height: 42px;
+	border-radius: 50%;
+	margin-left: 10px;
+    	color: #888;
+	outline: none;	
 }
 #social a:hover{
 	background-color: #fff;
@@ -166,14 +166,14 @@ footer .copyright{
 	.nav li{
 		display: inline-block;
 		float: left;
-		width: 25%;
+		width: 20%;
 	}
 	.col-main, .col-main:first-child{
 		margin-top: 20px;
 	}
 	.col{
-	float: left;
-	width: 33.3333333336%;
+		float: left;
+		width: 33.3333333336%;
 	}
 }
 @media (min-width: 992px){
