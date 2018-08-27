@@ -105,6 +105,20 @@ main{
 .col img{
 	width: 100%;
 }
+.col-full{
+	padding: 0 20px;
+}
+.col-full span{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.col-full h1{
+	text-align: center;
+	color: #666;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 #social a{
 	display: inline-block;
  	width: 42px;
@@ -193,6 +207,9 @@ footer .copyright{
 	.col{
 		float: left;
 		width: 33.3333333336%;
+	}
+	.col-full{
+		width: 100%;
 	}
 	.audiocontainer, .videocontainer{
 		float: left;
