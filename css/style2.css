@@ -122,11 +122,6 @@ main{
 .col-full p{
 	margin-bottom: 60px;
 }
-.col-full span{
-	display: block;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
 
 #social a{
 	display: inline-block;
