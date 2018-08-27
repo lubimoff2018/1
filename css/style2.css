@@ -119,6 +119,15 @@ main{
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
+.col-full p{
+	margin-bottom: 60px;
+}
+.col-full span{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
 #social a{
 	display: inline-block;
  	width: 42px;
