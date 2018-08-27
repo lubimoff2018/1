@@ -158,6 +158,7 @@ footer .copyright{
 	}
 	.nav{
 		top: 0;
+		padding: 0;
 		max-height: 62px;
 	}
 	.nav-btn{
